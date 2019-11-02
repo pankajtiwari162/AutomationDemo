@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3829264465,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "to test the login with valid credentials",
+        "description": "",
+        "id": "login;to-test-the-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 214092088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9482480894,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDef.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2295600029,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Sign_In link",
+            "match": {
+              "location": "StepDef.user_clicks_on_Sign_In_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331998117,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username \"automationwithpankaj@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automationwithpankaj@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.user_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200956874,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password as \"test@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@1234",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDef.user_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1786261138,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "StepDef.user_clicks_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96921161,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be logged in successfully",
+            "match": {
+              "location": "StepDef.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2358087226,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logout from the application",
+            "match": {
+              "location": "StepDef.user_logout_from_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "./FeatureFiles/Login.feature"
+  }
+]

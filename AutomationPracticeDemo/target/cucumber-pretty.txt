@@ -1,0 +1,11 @@
+Feature: Login
+
+  @Smoke
+  Scenario: to test the login with valid credentials          # ./FeatureFiles/Login.feature:5
+    Given user open the browser                               # StepDef.user_open_the_browser()
+    When user clicks on Sign_In link                          # StepDef.user_clicks_on_Sign_In_link()
+    When user enter username "automationwithpankaj@gmail.com" # StepDef.user_enter_username(String)
+    And user enter password as "test@1234"                    # StepDef.user_enter_password_as(String)
+    And user clicks on sign in                                # StepDef.user_clicks_on_sign_in()
+    Then user should be logged in successfully                # StepDef.user_should_be_logged_in_successfully()
+    And user logout from the application                      # StepDef.user_logout_from_the_application()

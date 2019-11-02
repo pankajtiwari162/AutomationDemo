@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.595662">
+<testcase classname="Login" name="to test the login with valid credentials" time="20.595662">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When user clicks on Sign_In link............................................passed
+When user enter username "automationwithpankaj@gmail.com"...................passed
+And user enter password as "test@1234"......................................passed
+And user clicks on sign in..................................................passed
+Then user should be logged in successfully..................................passed
+And user logout from the application........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
